@@ -26,7 +26,8 @@ h1, h2, h3, h4 {
 }
 
 .container {
-    padding-left: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -112,4 +113,13 @@ span.learn_text {
     display: flex;
     font-size:12pt;
     margin-top: 60px;
+}
+
+.header_container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+hr {
+    border-color: mat-color($primary);
 }

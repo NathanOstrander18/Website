@@ -3,7 +3,7 @@
         <mat-toolbar-row color="primary">
             <button mat-icon-button (click)="snav.toggle()"><mat-icon>waves</mat-icon></button>
             <span><strong>{{name}}</strong></span>
-            <span>{{title}}</span>
+            <span>{{ title }}</span>
             <span>{{ education }}</span>
             <span>{{ email }}</span>
             <span>{{ phone }}</span>
@@ -15,6 +15,7 @@
             <mat-nav-list>
                 <mat-list-item><a routerLink="" (click)="snav.toggle()" routerLinkActive="active"><button mat-icon-button><mat-icon>home</mat-icon></button>Home</a></mat-list-item>
                 <mat-list-item><a routerLink="/resume" (click)="snav.toggle()" routerLinkActive="active"><button mat-icon-button><mat-icon>view_list</mat-icon></button>Resume</a></mat-list-item>
+                <mat-list-item><a routerLink="/projects" (click)="snav.toggle()" routerLinkActive="active"><button mat-icon-button><mat-icon>laptop_chrome</mat-icon></button>Projects</a></mat-list-item>
                 <!-- <a mat-list-item (click)="snav.toggle()" [routerLink]="['/resume']">resume</a> -->
             </mat-nav-list>
         </mat-sidenav>

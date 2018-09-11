@@ -13,6 +13,7 @@ import { LeadershipComponent } from './leadership/leadership.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ResumeComponent } from './resume/resume.component';
 import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     LeadershipComponent,
     NavbarComponent,
     ResumeComponent,
-    HomeComponent
+    HomeComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
