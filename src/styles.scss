@@ -144,9 +144,15 @@ ul,li {
 
 .title > h3{
     display: inline-block;
+    margin-bottom: 0px;
+}
+
+h3{
+    margin-bottom: 0px;
 }
 
 .date {
+    display: inline-block;
     font-size: 8pt;
     padding-left: 10pt;
 }
