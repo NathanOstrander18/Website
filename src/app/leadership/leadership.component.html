@@ -1,6 +1,9 @@
 <h2>{{title}}</h2>
 <div *ngFor="let experience of leadershipExperience">
-    <h3>{{experience.title}} - {{experience.organization}}</h3>
+    <div class="title">
+        <h3>{{experience.title}} - {{experience.organization}}</h3>
+        <span class="date">2017</span>
+    </div>
     <div class="task" *ngFor="let task of experience.tasks">
         {{task}}
     </div>

@@ -17,7 +17,7 @@ export class SkillsComponent {
     title="Core Skills"
     skills=[
         'Java (Grails, Spring Boot)',
-        'AWS (Production usage of EC2, CloudWatch, Lambda, SNS, RDS)',
+        'AWS (Production usage of EC2, CloudWatch, Lambda, S3, SNS, SES, RDS)',
         'HTML, CSS, JavaScript (Angular)',
         'SQL (mySQL)',
         'Python'

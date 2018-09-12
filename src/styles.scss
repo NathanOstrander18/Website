@@ -141,3 +141,12 @@ ul,li {
     list-style-type: square;
     text-indent:-1.5em;
 }
+
+.title > h3{
+    display: inline-block;
+}
+
+.date {
+    font-size: 8pt;
+    padding-left: 10pt;
+}
