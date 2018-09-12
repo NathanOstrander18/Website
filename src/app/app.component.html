@@ -1,11 +1,11 @@
 <div class="main_container">
     <mat-toolbar color="primary">
-        <mat-toolbar-row color="primary">
+        <mat-toolbar-row class="scrolling-wrapper" color="primary">
             <button mat-icon-button (click)="snav.toggle()"><mat-icon>waves</mat-icon></button>
             <span><strong>{{name}}</strong></span>
             <span>{{ title }}</span>
             <span>{{ education }}</span>
-            <span>{{ email }}</span>
+            <span><a href="mailto:{{ email }}">{{ email }}</a></span>
             <span>{{ phone }}</span>
             <span><a class="col" target="_blank" rel="noopener" href="{{githubLink}}">Github</a></span>
         </mat-toolbar-row>
